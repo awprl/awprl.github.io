@@ -228,7 +228,7 @@ section{
 		font-weight: 400;
 	}
 }
-/*
+
 @keyframes rotate {
   0% {
     transform: rotate(0deg);
@@ -242,4 +242,4 @@ section{
   100% {
     transform: rotate(360deg);
   }
-}*/
+}
