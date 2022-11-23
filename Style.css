@@ -1,0 +1,245 @@
+html {
+  font-family: 'SF Pro Display';
+}
+
+@font-face{
+	font-family: 'SF Pro Display';
+	src: local("SF Pro Display"),
+       url("/fonts/SFProDisplay.ttf") format("ttf"),
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.logo
+{
+	margin-left: 1em;
+	width: 3em;
+}
+
+ul
+{
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+	
+	margin-right: auto;
+}
+
+a:link
+{
+	color: black;
+	text-decoration: none;
+	padding-left: 2.5em;
+}
+
+h1{
+	margin-left: 0.3em;
+}
+
+.title{
+	margin-left: 50%;
+}
+
+.navigation{
+	display: flex;
+	flex-direction: row;
+	align-items:center;
+	margin-top: 0.75em;
+}
+
+.contact a {
+	color: #F63D96;
+}
+
+.contact{
+	margin-right: 1em;
+	margin-left: auto;
+}
+
+img.logo{
+  animation-name: rotate;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+.photo{
+	width: 17%;
+}
+
+
+.info{
+	display: flex;
+	margin-left: 1em;
+}
+
+.info p{
+	margin-left: 1em;
+	width: 32%;
+	text-align: justify;
+}
+
+p{
+	padding-right: 1em;
+	margin-left: 50%;
+}
+
+
+.description{
+	margin-right: 1em;
+	width: 25%;
+	display: flex;
+	flex-direction: column;
+}
+
+.vector{
+	width: 5em;
+	margin-bottom: 1em;
+}
+
+section{
+	margin-right: 11em;
+	margin-left: 11em;
+	margin-bottom: 5em;
+	margin-top: 5em;
+}
+
+article{
+	margin-top: 7.5em;
+	margin-bottom: 7.5em;
+}
+
+aside{
+	width: 58%;
+	height: auto;
+	background-color: grey;
+	margin-left: 1em;
+}
+
+section{
+	display: flex;
+}
+
+
+@media (min-width: 1200px){
+	h1{
+		font-size: 48px;
+		font-weight: 500;
+		line-height: 100%;
+	}
+	h2{
+		font-size: 24px;
+		font-weight: 500;
+		line-height: 100%;
+	}
+	a{
+		font-size: 16px;
+		font-weight: 500;
+	}
+	span, p{
+		font-size: 16px;
+		font-weight: 400;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+	h1{
+		font-size: 40px;
+		font-weight: 500;
+		line-height: 100%;
+	}
+	h2{
+		font-size: 24px;
+		font-weight: 500;
+		line-height: 100%;
+	}
+	a{
+		font-size: 16px;
+		font-weight: 500;
+	}
+	span, p{
+		font-size: 16px;
+		font-weight: 400;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	h1{
+		font-size: 32px;
+		font-weight: 500;
+		line-height: 100%;
+	}
+	h2{
+		font-size: 20px;
+		font-weight: 500;
+		line-height: 100%;
+	}
+	a{
+		font-size: 16px;
+		font-weight: 500;
+	}
+	span, p{
+		font-size: 16px;
+		font-weight: 400;
+	}
+}
+
+@media (min-width: 480px) and (max-width: 767px){
+	h1{
+		font-size: 32px;
+		font-weight: 500;
+		line-height: 100%;
+	}
+	h2{
+		font-size: 24px;
+		font-weight: 500;
+		line-height: 100%;
+	}
+	a{
+		font-size: 16px;
+		font-weight: 500;
+	}
+	span, p{
+		font-size: 16px;
+		font-weight: 400;
+	}
+}
+
+@media (max-width: 480px){
+	h1{
+		font-size: 24px;
+		font-weight: 500;
+		line-height: 100%;
+	}
+	h2{
+		font-size: 20px;
+		font-weight: 500;
+		line-height: 100%;
+	}
+	a{
+		font-size: 16px;
+		font-weight: 500;
+	}
+	span, p{
+		font-size: 16px;
+		font-weight: 400;
+	}
+}
+/*
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  40% {
+    transform: rotate(210deg);
+  }
+  60% {
+    transform: rotate(150deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}*/
