@@ -67,9 +67,9 @@ img.logo{
 }
 
 .photo{
-	width: 17%;
+	width: 12rem;
+	height: 12rem;
 }
-
 
 .info{
 	display: flex;
@@ -141,7 +141,7 @@ section{
 		font-size: 16px;
 		font-weight: 500;
 	}
-	span, p{
+	span, p, .info p{
 		font-size: 16px;
 		font-weight: 400;
 	}
@@ -162,7 +162,7 @@ section{
 		font-size: 16px;
 		font-weight: 500;
 	}
-	span, p{
+	span, p, .info p{
 		font-size: 16px;
 		font-weight: 400;
 	}
@@ -183,7 +183,7 @@ section{
 		font-size: 16px;
 		font-weight: 500;
 	}
-	span, p{
+	span, p, .info p{
 		font-size: 16px;
 		font-weight: 400;
 	}
@@ -204,7 +204,7 @@ section{
 		font-size: 16px;
 		font-weight: 500;
 	}
-	span, p{
+	span, p, .info p{
 		font-size: 16px;
 		font-weight: 400;
 	}
@@ -225,7 +225,7 @@ section{
 		font-size: 16px;
 		font-weight: 500;
 	}
-	span, p{
+	span, p, .info p{
 		font-size: 16px;
 		font-weight: 400;
 	}
