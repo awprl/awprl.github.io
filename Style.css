@@ -67,8 +67,8 @@ img.logo{
 }
 
 .photo{
-	width: 12rem;
-	height: 12rem;
+	width: 12rem !important;
+	height: 12rem !important;
 }
 
 .info{
