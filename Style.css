@@ -325,6 +325,15 @@ article{
 	border: 3px solid black;
 	border-radius: 2rem;
 	}
+	.contact {
+		display: flex;
+		flex-direction: row;
+	}
+/*
+	.contact li{
+		margin-bottom: 1rem;
+	}
+*/
 }
 
 @media (min-width: 360px) and (max-width: 480px){
@@ -392,15 +401,16 @@ article{
 	}
 	.contact {
 		display: flex;
-		flex-direction: column;
+		flex-direction: row;
+		margin-right: 1rem;
+		margin-left: auto;
 	}
-	a:link
-	{
-		padding-bottom: 1rem;
+/*
+	.contact li{
+		margin-right: 1rem;
 	}
-	.navigation{
-		justify-content: center;
-	}
+*/
+	
 	button{
 		margin-left: auto;
 		padding: 1rem 2rem;
