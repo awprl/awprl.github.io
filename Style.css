@@ -88,10 +88,11 @@ img.logo{
 
 .info p{
 	margin-left: 38%;
-	width: 38%;
+	padding-right: 1rem;
 }
 
 .about{
+	margin-top: 3rem;
 	margin-left: 38%;
 }
 
@@ -110,7 +111,7 @@ p{
 
 .grid div
 {
-	border: 1px solid blue;
+	border: 1px solid red;
 }
 
 .grid p{
@@ -380,17 +381,18 @@ article{
 	.contact {
 		display: flex;
 		flex-direction: column;
+		margin-top: 0.5rem;
 	}
 	button{
-	margin-left: auto;
-	padding: 1rem 2rem;
-	margin-top: 1rem;
-	margin-bottom: 1rem;
-	border-radius: 1.5rem;
+		margin-left: auto;
+		padding: 1rem 2rem;
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+		border-radius: 1.5rem;
 	}
 	.info{
-	display: flex;
-	flex-direction: column;
+		display: flex;
+		flex-direction: column;
 	}
 	.info p{
 		margin-left: 0rem;
