@@ -109,7 +109,7 @@ p{
 
 .grid div
 {
-	border: 1px solid red;
+	border: 1px solid blue;
 }
 
 .grid p{
@@ -368,7 +368,10 @@ article{
 	.contact {
 		display: flex;
 		flex-direction: column;
-		margin-top: 1rem;
+		margin-bottom: 1rem;
+	}
+	.navigation{
+		justify-content: center;
 	}
 	button{
 	margin-left: auto;
