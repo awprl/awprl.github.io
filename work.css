@@ -1,0 +1,183 @@
+html {
+  font-family: 'SF Pro Display';
+	width: 100%;
+}
+
+@font-face{
+	font-family: 'SF Pro Display';
+	src: local("SF Pro Display"),
+       url("/fonts/SFProDisplay.ttf") format("ttf"),
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.logo
+{
+	margin-left: 1rem;
+	width: 3rem;
+}
+
+.contact
+{
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+	margin-right: 1rem;
+	margin-left: auto;
+}
+
+ul{
+	list-style-type: none;
+	margin-left: -2.5rem;
+}
+
+
+.contact a {
+	color: #F63D96;
+}
+
+a:link
+{
+	text-decoration: none;
+	padding-left: 2.5rem;
+}
+
+h1{
+	margin-left: 1rem;
+}
+
+.title{
+	margin-left: 1rem;
+}
+
+.navigation{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 1rem;
+}
+
+img.logo{
+  animation-name: rotate;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+p{
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	width: 50%;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+article{
+	margin-top: 4.5rem;
+	margin-bottom: 5rem;
+}
+
+.project{
+	width: 100%;
+}
+
+@media (min-width: 1200px){
+	h1{
+		font-size: 48px;
+		font-weight: 500;
+		line-height: 100%;
+	}
+	p{
+		font-size: 16px;
+		font-weight: 400;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+	h1{
+		font-size: 40px;
+		font-weight: 500;
+		line-height: 100%;
+	}
+	p{
+		font-size: 16px;
+		font-weight: 400;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	h1{
+		font-size: 32px;
+		font-weight: 500;
+		line-height: 100%;
+	}
+	p{
+		font-size: 20px;
+		font-weight: 400;
+	}
+	section{
+		margin-right: 10%;
+		margin-left: 10%;
+	}
+}
+
+@media (min-width: 480px) and (max-width: 767px){
+	h1{
+		font-size: 32px;
+		font-weight: 500;
+		line-height: 100%;
+	}
+	p{
+		font-size: 16px;
+		font-weight: 400;
+		margin-left: 1rem;
+	}
+	.title{
+		margin-left: 1rem;
+	}
+}
+
+@media (min-width: 360px) and (max-width: 480px){
+	h1{
+		font-size: 32px;
+		font-weight: 500;
+		line-height: 100%;
+	}
+	p{
+		font-size: 16px;
+		font-weight: 400;
+		margin-left: 1rem;
+	}
+	.title{
+		margin-left: 1rem;
+	}
+	.contact {
+		display: flex;
+		flex-direction: column;
+	}
+	a:link
+	{
+		padding-bottom: 1rem;
+	}
+	.navigation{
+		justify-content: center;
+	}
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  40% {
+    transform: rotate(210deg);
+  }
+  60% {
+    transform: rotate(150deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
