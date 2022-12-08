@@ -109,10 +109,12 @@ p{
 	grid-template-rows: 1fr 1fr;
 }
 
+/*
 .grid div
 {
 	border: 1px solid blue;
 }
+*/
 
 .grid p{
 	margin-left: auto;
@@ -386,8 +388,10 @@ article{
 	.contact {
 		display: flex;
 		flex-direction: column;
-		margin-bottom: 2rem;
-		margin-top: 2rem;
+	}
+	a:link
+	{
+		padding-bottom: 1rem;
 	}
 	.navigation{
 		justify-content: center;
@@ -403,10 +407,10 @@ article{
 		display: block;
 	}
 	.border{
-	margin: 1rem;
-	padding: 1rem 2rem 3rem 2rem;
-	border: 3px solid black;
-	border-radius: 2rem;
+		margin: 1rem;
+		padding: 1rem 2rem 3rem 2rem;
+		border: 3px solid black;
+		border-radius: 2rem;
 	}
 }
 
