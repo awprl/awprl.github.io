@@ -105,7 +105,7 @@ p{
 
 .grid div
 {
-	border: 1px solid red;
+	border: 1px solid blue;
 }
 
 .grid p{
@@ -128,6 +128,7 @@ button{
 	margin-top: 2rem;
 	margin-bottom: 2rem;
 	border-radius: 1.5rem;
+	white-space: nowrap;
 }
 .header{
 	display: flex;
