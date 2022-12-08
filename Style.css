@@ -328,10 +328,12 @@ article{
 	.contact {
 		display: flex;
 		flex-direction: row;
+		margin-right: 1rem;
+		margin-left: auto;
 	}
 /*
 	.contact li{
-		margin-bottom: 1rem;
+		margin-left: 1rem;
 	}
 */
 }
@@ -402,14 +404,13 @@ article{
 	.contact {
 		display: flex;
 		flex-direction: row;
+		margin-right: 0.5rem;
+		margin-left: auto;
+	}
+	.contact ul{
 		margin-right: 1rem;
 		margin-left: auto;
 	}
-/*
-	.contact li{
-		margin-right: 1rem;
-	}
-*/
 	
 	button{
 		margin-left: auto;
