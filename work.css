@@ -47,14 +47,6 @@ a:link
 	padding-left: 2.5rem;
 }
 
-h1{
-	margin-left: 1rem;
-}
-
-.title{
-	margin-left: 1rem;
-}
-
 .navigation{
 	display: flex;
 	flex-direction: row;
@@ -80,10 +72,13 @@ p{
 article{
 	margin-top: 4.5rem;
 	margin-bottom: 5rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
 }
 
 .project{
 	width: 100%;
+	
 }
 
 @media (min-width: 1200px){
@@ -135,12 +130,7 @@ article{
 	p{
 		font-size: 16px;
 		font-weight: 400;
-		margin-left: 1rem;
-		margin-right: 1rem;
-		width: 96.5%;
-	}
-	.title{
-		margin-left: 1rem;
+		width: auto;
 	}
 }
 
@@ -153,12 +143,7 @@ article{
 	p{
 		font-size: 16px;
 		font-weight: 400;
-		margin-left: 1rem;
-		margin-right: 1rem;
-		width: 96.5%;
-	}
-	.title{
-		margin-left: 1rem;
+		width: auto;
 	}
 	.contact {
 		display: flex;
