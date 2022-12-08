@@ -111,7 +111,7 @@ p{
 
 .grid div
 {
-	border: 1px solid red;
+	border: 1px solid blue;
 }
 
 .grid p{
@@ -400,7 +400,7 @@ article{
 		border-radius: 1.5rem;
 	}
 	.info {
-		display: none;
+		display: block;
 	}
 	.border{
 	margin: 1rem;
