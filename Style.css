@@ -398,9 +398,8 @@ article{
 		margin-bottom: 1rem;
 		border-radius: 1.5rem;
 	}
-	.info {
-		display: flex;
-		flex-direction: column!important;
+	.info a {
+		display:block;
 	}
 	.border{
 	margin: 1rem;
