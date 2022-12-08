@@ -162,6 +162,10 @@ section{
 	margin-top: 3rem;
 }
 
+section:hover {
+  cursor: pointer;
+}
+
 article{
 	margin-top: 3rem;
 	margin-bottom: 5rem;
